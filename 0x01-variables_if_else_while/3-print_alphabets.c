@@ -12,13 +12,13 @@ int main(void)
 {
 	char ch;
 
-	printf("Lowercase letters:\n");
+	printf("Lowercase letters: ");
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
 
-	printf("\nUppercase letters:\n");
+	printf("\nUppercase letters: ");
 	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
 		putchar(ch);

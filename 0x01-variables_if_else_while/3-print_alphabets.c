@@ -10,16 +10,21 @@
 
 int main(void)
 {
-	char ch = 'a';
-	char ch = 'A';
+	char ch;
 
-	while (ch <= 'z')
+	printf("Lowercase letters:\n");
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
-		ch++;
 	}
+
+	printf("\nUppercase letters:\n");
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+		putchar(ch);
+	}
+
 	putchar('\n');
 
 	return (0);
 }
-

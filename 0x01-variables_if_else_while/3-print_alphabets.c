@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Description: print alphabet in lower case then in uppercase
+ * Description: Print alphabet in lowercase, then in uppercase
  *
  * Return: Always 0 (Success)
  */
@@ -12,18 +12,20 @@ int main(void)
 	char ch = 'a';
 	char cH = 'A';
 
-	/*prints a - z*/
+	/* Print a - z */
 	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
 
-	/*prints a - z*/
-	while (ch <= 'Z')
-		putchar(CH);
-		CH++;
+	/* Print A - Z */
+	while (cH <= 'Z')
+	{
+		putchar(cH);
+		cH++;
 	}
+
 	putchar('\n');
 
 	return (0);
